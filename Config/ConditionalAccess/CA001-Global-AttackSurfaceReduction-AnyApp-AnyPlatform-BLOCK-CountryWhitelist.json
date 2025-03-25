@@ -1,4 +1,4 @@
-﻿{
+{
     "@odata.context":  "https://graph.microsoft.com/beta/$metadata#identity/conditionalAccess/policies/$entity",
     "@odata.type":  "#microsoft.graph.conditionalAccessPolicy",
     "@odata.id":  "identity/conditionalAccess/policies(\u002719bbdbd4-d871-4964-a6ef-9b3054b9337c\u0027)",
@@ -80,18 +80,7 @@
 
                                                       ],
                                      "includeGuestsOrExternalUsers":  null,
-                                     "excludeGuestsOrExternalUsers":  {
-        "@odata.type": "#microsoft.graph.conditionalAccessGuestsOrExternalUsers",
-        "guestOrExternalUserTypes": "externalUsers",
-        "externalTenants": {
-            "@odata.type": "#microsoft.graph.conditionalAccessExternalTenants",
-            "membershipKind": "enumerated",
-            "members": [
-                "bf9d156e-4732-4b58-bd37-ac15c933e89c" 
-            ]
-        }
-    }
-                                 },
+                                     "excludeGuestsOrExternalUsers":  null,
                        "locations":  {
                                          "@odata.type":  "#microsoft.graph.conditionalAccessLocations",
                                          "includeLocations@odata.type":  "#Collection(String)",
@@ -124,4 +113,4 @@
                           "authenticationStrength@odata.navigationLink":  "https://graph.microsoft.com/beta/identity/conditionalAccess/policies(\u002719bbdbd4-d871-4964-a6ef-9b3054b9337c\u0027)/grantControls/authenticationStrength",
                           "authenticationStrength":  null
                       }
-}
+}}
